@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REDESIGN NETFLIX</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css" />
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/images/logo.png" width="90" class="img-fluid" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Movies <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">TV Shows</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">New & Popular</a>
+                    </li>
+                    <li class="nav-item dropdown language">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        ID
+                        </a>
+                    </li>
+                    <button class="btn btn-primary px-4 ml-3">
+                        Masuk
+                    </button>
+                </ul>
+            </div>  
+        </div>
+    </nav>
+    <section class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 align-self-center">
+                    <div data-aos="fade-down">
+                        <h1>
+                            Nikmati Tontonan Dimana Saja, dan Kapan Saja
+                        </h1>
+                        <p>
+                            Tonton apa saja secara online dari komputer pribadi atau di perangkat yang terhubung ke Internet dan mendukung aplikasi Netflix, dan gunakan download untuk menonton saat kamu di perjalanan dan tidak punya koneksi Internet.
+                        </p>
+                    </div>
+                    <button class="btn btn-primary px-4" data-aos="fade-right">
+                        Daftar Sekarang
+                    </button>
+                </div>
+                <div class="col-md-6 card-hero-image" data-aos="flip-right">
+                    <img src="assets/images/hero-icon.png" width="684" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="layanan"> 
+        <div class="container">
+            <div class="text-center" data-aos="zoom-in">
+                <h2>
+                    Layanan Terbaik yang Tidak Mengecewakan
+                </h2>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-3">
+                    <div class="card-layanan" data-aos="fade-up" data-aos-delay="100">
+                        <img src="assets/images/layanan-dummy1.png" width="70" class="img-fluid" alt="">
+                        <h6>Tonton langsung di TV</h6>
+                        <p>
+                            Tonton di Smart TV, Playstation, Xbox, Chromecast, Apple TV, pemutar Blu-ray, dan banyak lagi
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card-layanan" data-aos="fade-up" data-aos-delay="300">
+                        <img src="assets/images/layanan-dummy2.png" width="70" class="img-fluid" alt="">
+                        <h6>Download untuk offline</h6>
+                        <p>
+                            Simpan dengan mudah agar selalu ada acara TV dan film yang bisa ditonton
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card-layanan" data-aos="fade-up" data-aos-delay="500">
+                        <img src="assets/images/layanan-dummy3.png" width="70" class="img-fluid" alt="">
+                        <h6>Akses berbagai perangkat</h6>
+                        <p>
+                            Streaming film dan acara TV tak terbatas di ponsel, tablet, laptop, dan TV-mu
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card-layanan" data-aos="fade-up" data-aos-delay="700">
+                        <img src="assets/images/layanan-dummy4.png" width="70" class="img-fluid" alt="">
+                        <h6>Buat profil untuk anak</h6>
+                        <p>
+                            Profil anak dilengkapi kontrol orang tua yang dilindungi PIN sehingga kamu bisa membatasi rating usia konten yang bisa ditonton anak 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="market">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex" data-aos="zoom-in-down">
+                    <img src="assets/images/market-bg.png" class="market-bg-image" alt="">
+                    <div class="layartv">
+                        <img src="assets/images/market-icon.png" class="market-image" width="637" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 align-self-center order-first order-md-last" data-aos="fade-left">
+                    <h1>
+                        Tonton Film, Acara TV Tak Terbatas, dan Lebih Banyak Lagi
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="film">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" data-aos="fade-right">
+                    <h3>
+                        Film dan Acara TV <br />Populer Bulan Ini
+                    </h3>
+                </div>
+                <div class="col-md-6 text-right align-self-end" data-aos="zoom-in-left">
+                    <button class="btn btn-primary px-4 ml-3">
+                        Lihat Semua
+                    </button>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-3">
+                    <div class="card-film" data-aos="flip-left" data-aos-delay="100">
+                        <img src="assets/images/film-dummy1.png" width="242" class="img-fluid" alt="">
+                        <h6>Joker</h6>
+                        <span>Crime, Drama, Thriller</span>
+                        <p>
+                            <img src="assets/images/star-icon.png" width="20" class="mr-2" alt="">
+                            8.4/10 IMDb
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card-film" data-aos="flip-left" data-aos-delay="300">
+                        <img src="assets/images/film-dummy2.png" width="242" class="img-fluid" alt="">
+                        <h6>Arcane: League of Legends</h6>
+                        <span>Animation, Action, Adventure</span>
+                        <p>
+                            <img src="assets/images/star-icon.png" width="20" class="mr-2" alt="">
+                            9.2/10 IMDb
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card-film" data-aos="flip-left" data-aos-delay="500">
+                        <img src="assets/images/film-dummy3.png" width="242" class="img-fluid" alt="">
+                        <h6>Spider-Man: No Way Home</h6>
+                        <span>Action, Adventure, Fantasy</span>
+                        <p>
+                            <img src="assets/images/star-icon.png" width="20" class="mr-2" alt="">
+                            8.8/10 IMDb
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card-film" data-aos="flip-left" data-aos-delay="700">
+                        <img src="assets/images/film-dummy4.png" width="242" class="img-fluid" alt="">
+                        <h6>Peaky Blinders</h6>
+                        <span>Crime, Drama</span>
+                        <p>
+                            <img src="assets/images/star-icon.png" width="20" class="mr-2" alt="">
+                            8.8/10 IMDb
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="paketharga">
+        <div class="container">
+            <div class="text-center">
+                <h2>
+                    Pilih Paket yang Cocok Untukmu
+                </h2>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="card-harga" data-aos="zoom-in-down" data-aos-delay="100">
+                        <div class="text-center">
+                            <span>Basic</span>
+                            <h4>
+                                Rp 120,000<span>/bulan</span>
+                            </h4>
+                        </div>
+                        <ul>
+                            <li>
+                                <span class="li-title">
+                                    Ponsel, Tabel, Komputer, TV
+                                </span>
+                            </li>
+                            <li>
+                                <span class="li-title">
+                                    No Ads
+                                </span>
+                            </li>
+                            <li>
+                                <span class="li-title">
+                                    Batalkan Kapan Saja
+                                </span>
+                            </li>
+                            <li>
+                                <span class="li-title">
+                                    Kualiatas Video Baik
+                                </span>
+                            </li>
+                            <li>
+                                <span class="li-title">
+                                    Resolusi 480p
+                                </span>
+                            </li>
+                            <li class="lock">
+                                <span class="li-title">
+                                    Resolusi 720p
+                                </span>
+                            </li>
+                            <li class="lock">
+                                <span class="li-title">
+                                    Resolusi 1080p
+                                </span>
+                            </li>
+                            <li class="lock">
+                                <span class="li-title">
+                                    Resolusi 4K+HDR
+                                </span>
+                            </li>
+                        </ul>
+                        <div class="text-center">
+                            <button class="btn btn-secondary px-4 ml-3">
+                                Pilih Paket
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-harga best" data-aos="zoom-in-down" data-aos-delay="400">
+                        <div class="text-center">
+                            <span>Standart</span>
+                            <h4>
+                                Rp 153,000<span>/bulan</span>
+                            </h4>
+                        </div>
+                        <ul>
+                            <li>
+                                <span class="li-title">
+                                    Ponsel, Tabel, Komputer, TV
+                                </span>
+                            </li>
+                            <li>
+                                <span class="li-title">
+                                    No Ads
+                                </span>
+                            </li>
+                            <li>
+                                <span class="li-title">
+                                    Batalkan Kapan Saja
+                                </span>
+                            </li>
+                            <li>
+                                <span class="li-title">
+                                    Kualiatas Video Baik
+                                </span>
+                            </li>
+                            <li>
+                                <span class="li-title">
+                                    Resolusi 480p
+                                </span>
+                            </li>
+                            <li>
+                                <span class="li-title">
+                                    Resolusi 720p
+                                </span>
+                            </li>
+                            <li>
+                                <span class="li-title">
+                                    Resolusi 1080p
+                                </span>
+                            </li>
+                            <li class="lock">
+                                <span class="li-title">
+                                    Resolusi 4K+HDR
+                                </span>
+                            </li>
+                        </ul>
+                        <div class="text-center">
+                            <button class="btn btn-primary px-4 ml-3">
+                                Pilih Paket
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-harga" data-aos="zoom-in-down" data-aos-delay="700">
+                        <div class="text-center">
+                            <span>Premium</span>
+                            <h4>
+                                Rp 186,000<span>/bulan</span>
+                            </h4>
+                        </div>
+                        <ul>
+                            <li>
+                                <span class="li-title">
+                                    Ponsel, Tabel, Komputer, TV
+                                </span>
+                            </li>
+                            <li>
+                                <span class="li-title">
+                                    No Ads
+                                </span>
+                            </li>
+                            <li>
+                                <span class="li-title">
+                                    Batalkan Kapan Saja
+                                </span>
+                            </li>
+                            <li>
+                                <span class="li-title">
+                                    Kualiatas Video Baik
+                                </span>
+                            </li>
+                            <li>
+                                <span class="li-title">
+                                    Resolusi 480p
+                                </span>
+                            </li>
+                            <li>
+                                <span class="li-title">
+                                    Resolusi 720p
+                                </span>
+                            </li>
+                            <li>
+                                <span class="li-title">
+                                    Resolusi 1080p
+                                </span>
+                            </li>
+                            <li>
+                                <span class="li-title">
+                                    Resolusi 4K+HDR
+                                </span>
+                            </li>
+                        </ul>
+                        <div class="text-center">
+                            <button class="btn btn-secondary px-4 ml-3">
+                                Pilih Paket
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="berlangganan" data-aos="flip-up">
+        <div class="container">
+            <div class="text-center">
+                <h6>
+                    Berlangganan Untuk Mendapatkan Informasi Terbaru dan Menjadi Anggota Kami
+                </h6>
+                <div class="mt-4">
+                    <input type="text" placeholder="Enter Your Email" class="text-input-berlangganan px-4 py-2" />
+                    <button class="btn btn-primary px-4 py-2 ml-3">
+                        Berlangganan
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="assets/images/logo.png" width="133" class="img-fluid mb-4" alt="">
+                    <p>
+                        Layanan streaming tanpa iklan dan harga bulanan yang murah
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <h6 class="mb-4">Perusahaan</h6>
+                    <p>
+                        Tentang Kami
+                    </p>
+                    <p>
+                        Hubungi Kami
+                    </p>
+                    <p>
+                        Karir
+                    </p>
+                    <p>
+                        Blog
+                    </p>
+                    <p>
+                        Investors Relations
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <h6 class="mb-4">Dapatkan Bantuan</h6>
+                    <p>
+                        FAQ
+                    </p>
+                    <p>
+                        Pusat Bantuan
+                    </p>
+                    <p>
+                        Akun
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <h6 class="mb-4">Lainnya</h6>
+                    <p>
+                        Tukar Kartu Hadiah
+                    </p>
+                    <p>
+                        Netflix Originals
+                    </p>
+                    <p>
+                        Media Center
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="mb-4">Dapatkan Aplikasi Kami</h6>
+                    <img src="assets/images/appstore-icon.png" width="120" class="img-fluid mr-2" alt="">
+                    <img src="assets/images/playstore-icon.png" width="120" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>© 2022 Hak Cipta Terpelihara oleh Netflix Indonesia</p>
+                </div>
+                <div class="col-md-6 text-right">
+                    <span class="mr-4">Persyaratan Layanan</span>
+                    <span>Kebijakan Privasi</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.js"></script>
+    <script>
+        $(function() {
+            AOS.init({
+                duration: 1200,
+            })
+            $('.blog-carousel').slick({
+                dots: true,
+                arrow: false,
+                autoplay: true,
+                infinite: true,
+                speed: 500,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                responsive: [{
+                    breakpoint: 1199,
+                    settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3
+                    }
+                },
+                {
+                    breakpoint: 1024,
+                    settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3
+                    }
+                },
+                {
+                    breakpoint: 680,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 575,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }]
+            });
+        });
+        
+    </script>
+</body>
+</html>
